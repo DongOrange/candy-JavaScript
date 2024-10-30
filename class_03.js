@@ -14,3 +14,10 @@ function moveZerosToEnd(arr) {
 
 let result = moveZerosToEnd(list);
 console.log(result); // 印出 [false, 1, -1, 2, 1, 3, "a", 0, 0]
+
+
+/*
+說明：
+先宣告一個zero，把零都挑出來，
+再宣告一個againSort，把非零的挑出來，再把zero接在後面
+*/
